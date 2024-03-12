@@ -132,7 +132,7 @@ export default function App() {
               <a
                 style={{ color: "#399EE6", textDecoration: "none" }}
                 className="sourceref"
-                href="#"
+                href="https://github.com/ifumikuah/react-todo-app"
               >
                 Source
               </a>
