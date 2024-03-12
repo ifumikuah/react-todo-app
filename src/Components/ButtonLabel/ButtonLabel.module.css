@@ -1,0 +1,29 @@
+.label {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  padding: .25rem .4rem;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.label_dark:hover {
+  border-color: var(--dark-accent);
+  color: var(--dark-accent);
+}
+
+.label_light:hover {
+  border-color: var(--light-accent);
+  color: var(--light-accent);
+}
+
+.label_dark:active {
+  box-shadow: 0 0 8px var(--dark-accent);
+}
+
+.label_light:active {
+  box-shadow: 0 0 8px var(--light-accent);
+}

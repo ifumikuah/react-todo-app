@@ -1,0 +1,36 @@
+.sym {
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  transition: .3s color;
+}
+
+.sym:hover {
+
+}
+
+.sym_dark {
+
+}
+
+.sym_light {
+  
+}
+
+.sym_dark:hover {
+  color: var(--dark-accent);
+}
+
+.sym_light:hover {
+  color: var(--light-accent);
+}
+
+.sym_dark:active {
+  text-shadow: 0 0 8px var(--dark-accent);
+}
+
+.sym_light:active {
+  text-shadow: 0 0 8px var(--light-accent);
+}
